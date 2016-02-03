@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description"content="Уроки HTML ">
+	<meta name="keywords"content="html, lesson">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<title>Урок 1</title>
+</head>
+<body>
+	
+	<h2>Манойло Виктор Петрович</h2>
+	   
+	<div class="photo">
+			<img src="images/author.png" alt="автор" width="130px" height="130px" />
+	</div> 
+	<div class="shcool"> 
+	    <p>Студент заборостроительного университета</p>
+	    <hr><br>
+		<p>Хочу учить фротенд, потому что:</p>
+		<ul>
+	 		<li>Потому что заборы строить не интересно</li>
+	 		<li>Платят мало</li>
+	 		<li>Приходиться работать ночами</li>
+	 	 </ul>
+	 	 <hr><br>
+	 	 <p>Мой контактный телефон: </p>
+         <p> +3802222222</p>
+        <br>
+	 	 <p>Мой профиль в контакте:</p>
+	 	 <p><a href="http://www.vk.com">vk.com</a></p>
+	 	 <hr><br>
+	 	 <p>Мой фидбек: </p>
+	 	 <p>Если нужно могу построить вам забор </p>
+
+	</div>
+	
+	 	
+<hr>
+ </body> 
+ </html>
