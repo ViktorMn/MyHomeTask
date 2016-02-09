@@ -4,24 +4,27 @@ body {
 .content1{
 	margin-left: 300px;
 	padding-bottom: 50px;
-	width: 700px;
+	width: 550px;
 	background-color: white;	
 }
 h1 {
-	margin: 10px 20px 0 150px;
+	margin: 10px 20px 0 110px;
 }
 img {
-	margin: 5px 20px 0 280px;
+	margin: 5px 20px 0 230px;
 }
 p {
-	margin: 5px 20px 0 170px;
+	margin: 5px 20px 0 80px;
 	font-size: 1.2em;
 	line-height: 1.5em;
 }
 
 hr {
-	width: 600px;
+	width: 430px;
+	margin-top:14px;
+	margin-bottom:24px;
+	margin-left: 65px;
 }
 ul {
-	margin: 5px 20px 0 170px;
+	margin: 5px 20px 0 65px;
 }
