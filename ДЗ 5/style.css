@@ -4,19 +4,24 @@
 }
 body{
 	margin: 0px;
-	padding: 0;
+	padding: 0px;
 	
 }
-.wrapper header{
+header{
 	width: 100%;
+    margin: 0 0 0 0px;
 	min-height: 41px;
+    background: #074c89;
 	background: url(img/inventicons-29.png);
+
 }
 .inner-bar{
 	position: absolute;
 	right: 0px;
+
 	height: 40px;
 	width:930px;
+
 }
 .inner-bar ul li{
 	float: left;
@@ -36,7 +41,7 @@ body{
 }
 .bar_M {
 	position:absolute;
-	right: 270px;
+	right: 250px;
 	top: 14px;
 }
 .bar_M p{
@@ -60,7 +65,7 @@ body{
 }
 /*-----------------------*/
 .panel{
-	margin: 10px 0 0 0;
+	margin: 0 0 0 0;
 	padding-top: 200px;
     width: 1280px ;
     height: 828px;
@@ -107,6 +112,10 @@ body{
     height: 30px;
     background: url(img/facebook.png) no-repeat;
     border: none;
+    border-radius: 4px;
+}
+.fb-button:hover{
+    cursor: pointer;
 }
 
 .first {
@@ -114,8 +123,9 @@ body{
     margin: 38px 141px 0 143px;
     padding-left: 20px;
     padding-top: 3px;
-    background: url(img/Layer-1-copy-6.png) no-repeat;;
+    background: black;
     border: none;
+    border-bottom: 1px solid white;
     font-size: 14px;
 }
 .login {
@@ -124,13 +134,12 @@ body{
 input {
 	width: 255px;
 	height: 30px;
-    background: url(img/Layer-1-copy-8.png) no-repeat;
+    background: black;
 	border-top: none;
 	border-left: none;
 	border-right: none;
-	
 	border-bottom: 1px solid white;
-
+    border-radius: 4px;
 	
 }
 input[type="text"],
@@ -145,7 +154,7 @@ input[placeholder] {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
-    
+    background: #19548e;
     outline: none;
     box-shadow: 0px 0px 13px 4px rgba(70,129,171,1);
 }
@@ -184,6 +193,7 @@ input[type="password"]:focus {
     font-size: 14px;
     color: white;
     font-weight: bolder;
+    cursor: pointer;
 }
 .undertext p {
     font-family: "Helvetica Neue Regular", sans-serif;
