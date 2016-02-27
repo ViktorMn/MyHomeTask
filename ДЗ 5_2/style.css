@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+	height:1000px;
+	background-color: #dddddd;
+}
+table {
+	position: absolute;
+	margin: 50px 0 0 350px;
+
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border: 11px solid  #dddddd; /* Прячем рамку вокруг таблицы */
+ }
+
+  td  {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 10px solid black; /* Параметры рамки */
+    
+   }
+
+   
