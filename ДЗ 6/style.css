@@ -15,7 +15,7 @@
     padding: 0;
 }
 body {
-    background: gray;
+    background: #fff;
 }
 .wrapper {
     width: 1000px;
@@ -37,25 +37,31 @@ header {
     height: 21px;
     background: url(img/phone.png) no-repeat;
 }
+.form{
+    height: 25px;
+}
 .logIn {
     float: left;
-    width: 495px;
+    width: 496px;
     height: 26px;
     background: #124468;
     border-radius: 3px;
     box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.19);
-    margin: -4px 0 0 16px;
+    margin: -4px 0 0 14px;
 }
 .logIn img {
     vertical-align: middle;
     margin-left: 5px;
+    margin-top: 3px;
 }
 .logIn input {
-    height: 14px;
-    width: 105px;
-    border-radius: 5px;
+    margin-top: 2px;
+    height: 16px;
+    width: 110px;
+    border-radius: 2px;
     outline: none;
     vertical-align: middle;
+
 }
 .logIn input[placeholder] {
     font-family: "Lucida Sans Unicode", sans-serif;
@@ -72,6 +78,8 @@ header {
     vertical-align: middle;
 }
 .logIn button {
+    margin-top:2px;
+    margin-left: 3px;
     background: none;
     border: none;
     width: auto;
@@ -82,7 +90,7 @@ header {
 .logIn a:last-child {
     color: #bfbfbf;
     text-decoration: underline;
-    padding-left: 15px;
+    padding-left: 12px;
 }
 .right_icon {
     float: left;
