@@ -55,9 +55,10 @@ header {
     margin-top: 3px;
 }
 .logIn input {
-    margin-top: 2px;
+    margin-top: 3px;
     height: 16px;
     width: 110px;
+    border-style: none;
     border-radius: 2px;
     outline: none;
     vertical-align: middle;
@@ -75,9 +76,13 @@ header {
     font-size: 11px;
     color: white;
     text-decoration: none;
-    vertical-align: middle;
+   
+}
+.sub_link{
+    margin: -22px 0 0 303px;
 }
 .logIn button {
+
     margin-top:2px;
     margin-left: 3px;
     background: none;
@@ -90,7 +95,7 @@ header {
 .logIn a:last-child {
     color: #bfbfbf;
     text-decoration: underline;
-    padding-left: 12px;
+    padding-left: 8px;
 }
 .right_icon {
     float: left;
@@ -121,7 +126,7 @@ header {
     margin: 0 auto;
     background: url(img/zazor.png) no-repeat;
 }
-
+/*----------------NAV  MENU-----------------*/
 nav {
     width: 913px;
     height: 36px;
@@ -137,19 +142,22 @@ nav {
     height: 36px;
 }
 .nav-menu > li {
-    margin-top: 5px;
+    margin-top: 7px;
     display: inline-block;
     list-style: none;
 }
 .nav-menu > li a {
     display: block;
-    padding: 3px 12px 3px 14px;
+    padding: 4px 12px 3px 12px;
     font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: #fff;
     vertical-align: middle;
+}
+.nav-menu li:nth-child(1).active a{
+    background: url(img/Shape-5.png) no-repeat;
 }
 .nav-menu > li a:hover {
     background: url(img/Shape-5.png) no-repeat;
@@ -203,6 +211,9 @@ nav {
     font-size: 13px;
     color: #114165;
     text-transform: uppercase;
+    text-shadow: 0.01px 0.01px 0.01px #114165;
+    width: 185px;
+    height: 30px;
     border: 1px solid #79878d;
     border-radius: 14px;
     background: none;
@@ -211,7 +222,16 @@ nav {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 .side_bar button img {
-    transform: translateX(2px) translateY(3px);
+    transform: translateX(-75px) translateY(3px);
+}
+.side_bar button p { 
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font:  14px/15px;
+    font-stretch : ultra-expanded;
+    font-stretch:ultra-expanded;
+    font-variant: small-caps;
+    line-height: 20.5714px;
+    transform: translateX(14px) translateY(-22px);
 }
 .s_menu {
     float: left;
@@ -225,6 +245,7 @@ nav {
     font-size: 13px;
     color: #114165;
     text-transform: uppercase;
+    text-shadow: 0.01px 0.01px 0.01px #114165;
     border: 1px solid #79878d;
     border-radius: 12px;
     padding: 3px 75px 3px 5px;
@@ -329,6 +350,7 @@ figcaption{
     font-size: 13px;
     color: #114165;
     text-transform: uppercase;
+    text-shadow: 0.01px 0.01px 0.01px #114165;
     border: 1px solid #79878d;
     border-radius: 12px;
     padding: 3px 61px 3px 5px;
@@ -342,7 +364,10 @@ figcaption{
     font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 13px;
     color: #114165;
+    width: 185px;
+    height: 30px;
     text-transform: uppercase;
+    text-shadow: 0.01px 0.01px 0.01px #114165;
     border: 1px solid #79878d;
     border-radius: 14px;
     background: none;
@@ -353,7 +378,16 @@ figcaption{
 
 }
 .choose button img {
-    transform: translateX(2px) translateY(3px);
+    transform: translateX(-25px) translateY(3px);
+}
+.choose button p { 
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font:  14px/15px;
+    font-stretch : ultra-expanded;
+    font-stretch:ultra-expanded;
+    font-variant: small-caps;
+    line-height: 20.5714px;
+    transform: translateX(18px) translateY(-22px);
 }
 .aside-menu li img {
     transform: translateX(-1px) translateY(7px);
@@ -361,7 +395,7 @@ figcaption{
 .aside-menu li input[type="checkbox"] {
     margin-left: 34px;
     margin-top: 10px;
-   /* transform: scale(.7);*/
+  
 }
 .aside-menu li label {
     font-family: "Lucida Sans Unicode", sans-serif;
@@ -373,7 +407,7 @@ figcaption{
 }
 input[type="submit"] {
     width: 82px;
-    height: 28px;
+    height: 31px;
     background: url(img/choose.png);
     border-radius: 15px;
     border: none;
@@ -387,8 +421,14 @@ input[value] {
     color: #e5e9ea;
     text-transform: uppercase;
     text-align: center;
+ 
+}
+.foot_box{
+    position: relative;
+  
 }
 .foot_img {
+   
     width: 700px;
     height: 52px;
     background: url(img/foot_Logo.png) no-repeat;
@@ -396,16 +436,20 @@ input[value] {
 
 }
 footer {
+    
     width: 910px;
-    height: 91px;
-    background: url(img/foot.png);
+    height: 98px;
+    top: 1200px;
+    left: 500px;
+    border-radius: 5px;
     margin: 0 auto;
     padding-top: 8px;
+    background: url(img/foot.png);
 }
 .footer-menu {
     width: 400px;
-    height: 50px;
-    margin: 0 0 0 304px;
+    height: 30px;
+    margin: 0 0 0 306px;
 }
 .footer-menu li {
     display: inline-block;
@@ -420,6 +464,9 @@ footer {
     text-decoration: none;
     padding: 0 13px 0 6px;
 }
+.footer-menu li:nth-child(1).active a{
+    color: #52abcb;
+}
 .footer-menu li:last-child {
     border-right: none;
 }
@@ -431,6 +478,6 @@ footer p {
     font-size: 10px;
     color: #7f4740;
     text-align: center;
-    padding-top: 9px;
+    padding-top: 4px;
    
 }
