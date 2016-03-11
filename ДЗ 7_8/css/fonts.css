@@ -10,7 +10,6 @@
     font-style: normal;
 
 }
-
 @font-face {
     font-family: "webfontregular";
     src: url('../fonts/leaguegothicregular-webfont.eot');
@@ -23,29 +22,17 @@
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
-    
 font-family: "League Gothic Condensed Regular";
-    
-    src: url('../fonts/leaguegothic-condensedregular-webfont.eot');
-    
-    src: url('../fonts/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
-         
-         url('../fonts/leaguegothic-condensedregular-webfont.woff2') format('woff2'),
-         
-         url('../fonts/leaguegothic-condensedregular-webfont.woff') format('woff'),
-         
-         url('../fonts/leaguegothic-condensedregular-webfont.ttf') format('truetype');
-    
-    font-weight: normal;
-    
-    font-style: normal;
-
+     src: url('../fonts/leaguegothic-condensedregular-webfont.eot');
+     src: url('../fonts/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/leaguegothic-condensedregular-webfont.woff2') format('woff2'),
+          url('../fonts/leaguegothic-condensedregular-webfont.woff') format('woff'),
+          url('../fonts/leaguegothic-condensedregular-webfont.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
 }
+
 /* font-family: "RobotoRegular"; */
 @font-face {
 	font-family: "RobotoRegular";
