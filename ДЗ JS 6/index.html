@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<title>My Timer</title>
+  	<link rel="stylesheet" href="style.css">
+  	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<div class="stopWatch">
+    <h2>Stop Watch</h2>
+    <p id="output">00:00:00</p>
+   <div id="controls">
+    <button class="time-text" id="startPause" onclick="startPause()">Start</button>
+    <button class="time-text" onclick="reset()">Clear</button>
+   </div>
+</div> 	
+<!-- ................................................................... -->
+<div class="countBack">
+    <h2>Count Down</h2>
+     <p id = "time">00:00:00</p>
+       <button id = "bots" onclick="testTimer (5)">Start</button>
+       <button id="bots2" onclick="stop ()">Stop</button>
+     <p id = "rezult"></p>
+</div>
+</body>
+</html>

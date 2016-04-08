@@ -1,0 +1,112 @@
+
+
+.stopWatch{
+  margin:0 0 0 250px;
+  float:left;
+  width:300px;
+  height:250px;
+  border:1px solid #000;
+}
+h2 {
+  text-align: center;
+}
+#output {
+  margin: 5px 0 20px 44px;
+	width:200px;
+	height:auto;
+	font-size: 28px;
+	color: #3EFE2A;
+	text-align: center;
+  background-color: #000;
+	border:1px solid #000;
+}
+#startPause {
+	margin: 0 0 0 43px;
+	width:100px;
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+  color: #000;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+.time-text {
+	width:100px;
+	display: inline-block;
+	font-size: 16px;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+#startPause:hover { 
+	background: linear-gradient(#f5ae00, #f59500) #f5ae00; 
+}
+.time-text:hover{
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00; 
+}
+.countBack{
+margin:80px 0 0 700px;
+ width:300px;
+  height:250px;
+  border:1px solid #000;
+}
+#time{
+  margin: 0px 0 30px 45px;
+  width:200px;
+  height:auto;
+  font-size: 28px;
+  color: #3EFE2A;
+  text-align: center;
+  background-color: #000;
+  border:1px solid #000;
+}
+
+#bots{
+  margin: 0 0 0 45px;
+  width:100px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+#bots2{
+  margin: 0 0 0 0px;
+  width:100px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: left;
+  color: #000;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
