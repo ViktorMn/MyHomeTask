@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Вкладки табы на jQuery</title>
+		<meta name="description" content="Самый лёгкий и быстрый плагин jQuery для вкладок (табов), cоздает динамичные блоки с содержанием" />
+		<meta name="keywords" content="вкладки, плагин jQuery, табы, вкладки-табы, блоки с содержанием" />
+		
+		<!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic" rel="stylesheet" type="text/css" media="all" /> -->
+         <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+         <link rel="stylesheet" type="text/css" href="TipTip/tipTip.css" media="all" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+   
+    </head>
+    <body>    
+        
+    <div class="wrapper"></div>
+              <section class="content">
+             <h1> Вкладки (табы) на jQuery</h1>
+             <div class="tabs_block">
+                <ul class="tabs">
+                    <li class="active">Tab 1</li>
+                    <li>Tab 2</li>
+                    <li>Tab 3</li>
+                </ul>
+                <div class="box visible">
+                    <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною.</p> 
+                    <p>Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів Letraset.</p>
+                </div>
+                <div class="box">
+                    <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. </p>
+                </div>
+                <div class="box">
+                    <p><img src="img/mini_2.jpg" class="pl-left"> НЕМНОГО ЗНАНИЙ--Картинки в "табах"  можно отправить, как влево, так и вправо, для этого необходимо добавить тегу <strong>img</strong> соответствующий класс <strong>class="pl-left"</strong> или <strong>class="pl-right"</strong>.</p>
+                    <p>Позиционирование изображений определяется через <strong>float: right</strong> и <strong>float: left</strong> соответственно.</p>
+                </div>
+              </div>
+                <br>        
+              <div class="tabs_block">
+                <ul class="tabs">
+                    <li>Tab 1</li>
+                    <li class="active">Tab 2</li>
+                    <li>Tab 3</li>
+                </ul>
+                <div class="box">
+                    <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів.</p> 
+                    <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. </p>
+                </div>
+                <div class="box visible">
+                    <p><img src="img/mini_1.jpg" class="pl-right">
+                    Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів.</p>
+                </div>
+                <div class="box">
+                    <p>Содержание здесь.... </p>
+                </div>
+              </div>            
+        </section>
+        <br>
+        <!-- .................................................... -->
+<form>
+ <fieldset>
+    <div>
+      <label class="firstname">First Name</label>
+      <input id="firstname" name="firstname" title="Please provide your firstname.">
+    </div>
+    <div>
+      <label class="lastname">Last Name</label>
+      <input id="lastname" name="lastname" title="Please provide also your lastname.">
+    </div>
+    <div>
+      <label class="address">Address</label>
+      <input id="address" name="address" title="Your home or work address.">
+    </div>
+  </fieldset>
+</form>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="TipTip/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="TipTip/jquery.tipTip.minified.js"></script>
+    </body>
+</html>

@@ -1,0 +1,165 @@
+html, body {
+    height: 100%;
+    }
+body {
+    font: 14px/1.5 "Open Sans", sans-serif;
+    color: #555;
+    background: #ededed;
+    margin: 0;
+    }
+  
+.wrapper {
+    margin: 0 auto;
+    max-width: 980px;
+    }
+h1 {
+    text-align:center;
+   }
+/* Стили для табов-вкладок */
+.tabs_block {
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.tabs_block:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+/* панель навигации вкладок */
+.tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float:left;
+
+}
+/* список вкладок */
+.tabs li:first-child{
+ border-top-left-radius: 10px; 
+ -webkit-border-top-left-radius: 10px; 
+ -o-border-top-left-radius: 10px; 
+ -moz-border-top-left-radius: 10px; 
+ box-shadow: -3px 1px 2px rgba(122,122,122,0.4); 
+ -webkit-box-shadow: -3px 1px 2px rgba(122,122,122,0.4); 
+ -o-box-shadow: -3px 1px 2px rgba(122,122,122,0.4); 
+ -moz-box-shadow: -3px 1px 2px rgba(122,122,122,0.4); 
+}
+.tabs li:last-of-type{ 
+    border-top-right-radius: 10px; 
+    -webkit-border-top-right-radius: 10px; 
+    -o-border-top-right-radius: 10px; 
+    -moz-border-top-right-radius: 10px; 
+    box-shadow: 3px 1px 2px rgba(122,122,122,0.4); 
+    -webkit-box-shadow: 3px 1px 2px rgba(122,122,122,0.4); 
+    -o-box-shadow: 3px 1px 2px rgba(122,122,122,0.4); 
+    -moz-box-shadow: 3px 1px 2px rgba(122,122,122,0.4); 
+} 
+.tabs:hover{ 
+    /*background: #555; */
+    transition-property: background-color; 
+    transition-duration: 1s; 
+    transition-timing-function: ease-out; 
+    -moz-transition-property: background-color; 
+    -moz-transition-duration: 1s; 
+    -moz-transition-timing-function: ease-out; 
+    -webkit-transition-property: background-color; 
+    -webkit-transition-duration: 1s; 
+    -webkit-transition-timing-function: ease-out; 
+    -o-transition-property: background-color; 
+    -o-transition-duration: 1s; 
+    -o-transition-timing-function: ease-out; 
+    color: #fff; 
+    font-weight: bold; 
+} 
+.tabs:hover:nth-of-type(2){ 
+    width: 26%; 
+    left: 23.5%; 
+    } 
+.tabs:hover:nth-of-type(3){ 
+    width: 26%; 
+    left: 48%; 
+} 
+.tabs li {
+    text-align:center;
+    height:15px;
+    float:left;
+    padding:8px 15px;
+    background:#48c3d6;
+    margin-right:1px;
+     
+    color:#fff;
+    -webkit-transition:all .2s linear 0s;
+    -webkit-transition-delay:.2s 0s;
+    transition:all .2s linear 0s;
+}
+.tabs li:hover{
+ cursor:pointer;
+ background:#FF9900;
+}
+/* активная вкладка */
+.tabs li.active {
+    background:#fdfdfd;
+    color:#4F5559; 
+}
+/* блоки вкладок с содержанием */
+.box {
+    background:#fdfdfd;
+    width:96%;
+    padding:5px 2% 6px;
+    display:none;
+    text-align: left;
+    float: left;
+}
+/* параграф внутри вкладок */
+.box p {
+    margin-bottom: 15px;
+}
+/* активный блок при загрузке */
+.visible, .open_tab {
+    display: block;
+}
+/* картинки внутри вкладок */
+.box img {
+    width: 25%;
+    height: auto;
+}
+/* картинки слева */
+.pl-left {
+    float:left;
+    margin:5px 15px 5px 0;
+}
+/* картинки справа */
+.pl-right {
+    float:right;
+    margin:5px 0 5px 15px;
+}
+/* убираем выравнивание на маленьких экранах */
+@media (max-width: 300px) {
+  .tabs, .tabs li {
+   float: none;
+  }
+}
+/*-----------------------------*/
+ fieldset{
+    margin:40px auto;
+    padding:20px 0 0 30px;
+    width: 500px;
+    background: #FFFF99;
+
+ }
+ label {
+    display: inline-block; 
+    width: 85px;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .help {
+    display: inline-block;
+  }
+  /*.ui-tooltip {
+    width: 210px;
+  }*/
+  
