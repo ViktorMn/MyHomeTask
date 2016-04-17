@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Task 9-10</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="selectbox.css">
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <!-- <script type="text/javascript" src="jquery-1.12.3.js"></script> -->
+    <script src="jquery.easing-1.3.js"></script>
+    <script src="jquery.easing.compatibility.js"></script>
+    <script src="jquery.mousewheel-3.1.12.js"></script>
+    <script src="jquery.jcarousellite.js"></script>
+    <script src="jquery.jcarousellite.min.js"></script>
+</head>
+<body>
+  <div id="jcl-demo">
+          <h3 class="logo">Колесо мышки и кнопки навигации вместе..</h3><hr>
+          <p>Это сладер, показывает, как можно использовать колесик мыши и кнопки навигации для той же карусели. Попробуйте прокрутки колесом мыши или нажав на следующей и предыдущей кнопки</p>
+
+    <div class="custom-container mouseWheelButtons">
+        <a href="#" class="prev">&lsaquo;</a>
+        <div class="carousel">
+            <ul>
+                <li><img src="image/1.jpg"></li>
+                <li><img src="image/2.jpg"></li>
+                <li><img src="image/3.jpg"></li>
+                <li><img src="image/4.jpg"></li>
+                <li><img src="image/5.jpg"></li>
+                <li><img src="image/6.jpg"></li>
+                <li><img src="image/7.jpg"></li>
+                <li><img src="image/8.jpg"></li>
+                <li><img src="image/9.jpg"></li>
+                <li><img src="image/10.jpg"></li>
+                <li><img src="image/11.jpg"></li>
+            </ul>
+        </div>
+        <a href="#" class="next">&rsaquo;</a>
+        <div class="clear"></div>
+    </div>
+</div>
+<br>
+<hr>
+<!-- .............................................. -->
+<div class="select_box">
+<h3> Нестандартный селектор плагин</h3>
+<select name="country_id" id="country_id" tabindex="1">
+            <option value="">-- Select Country --</option>
+            <optgroup label="North America">
+                <option value="1">USA</option>
+                <option value="9">Canada</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="2">France</option>
+                <option value="3">Spain</option>
+                <option value="6">Bulgaria</option>
+                <option value="7" disabled="disabled">Greece</option>
+                <option value="8">Italy</option>
+            </optgroup>
+            <optgroup label="Asia" disabled="disabled">
+                <option value="5">Japan</option>
+                <option value="11">China</option>
+            </optgroup>
+            <option value="4">Brazil</option>
+            <option value="10">South Africa</option>
+        </select>
+     </div>   
+<br>
+<hr>
+<!-- ................................................................ -->
+ <div class="main jquery-checkbox">
+         <form action="#">
+                 <h2>Checkboxes jQ </h2>
+                 
+            <div>
+                <label for="ch1">checkbox-1:</label>
+                <input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> 
+            </div>
+            <div>
+                <label for="ch2">checkbox-2:</label>
+                <input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" />
+            </div>
+          <div>
+                <label for="ch3">checkbox-3:</label>
+                <input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" />
+            </div> 
+         </form>
+       </div>
+       <!-- ...................................................... -->
+         <div class="main css-checkbox">   
+         <form action="#">
+                 <h2>Checkboxes CSS </h2>
+                 
+                    <div class='input-css'>
+                        <input type="checkbox" id="test-check1">
+                        <label for="test-check1">checkbox-1:</label> 
+                    </div>
+                    <div class='input-css'>
+                        <input type="checkbox" id="test-check2">
+                        <label for="test-check2">checkbox-2:</label> 
+                    </div>
+          </form>
+       </div>     
+<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script> 
+ <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
