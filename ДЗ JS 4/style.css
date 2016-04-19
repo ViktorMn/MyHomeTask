@@ -1,0 +1,27 @@
+.head-name{
+	 text-align: center;
+	 font-family: Arial, sans-serif;
+}
+
+.ul-title-1, .ul-title-2, .ul-title-3{
+	margin: 50px 0 0 80px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+.list-0, .list-1, .list-2{
+   display: block;
+   margin:20px 0 0 30px;
+   font-weight: bold;
+   font-size: 16px;
+   font-family: Arial, sans-serif;
+    list-style-type: none;
+}
+ .btn{
+ 	padding:10px;
+ 	border:2px solid gray;
+ 	display: block;
+ 	margin: 20px auto;
+ 	color: #000;
+ 	background: rgb(129, 216, 208);
+ }
