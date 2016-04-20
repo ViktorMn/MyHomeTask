@@ -1,3 +1,114 @@
+
+.page{
+    width: 100%;
+    border:1px solid #000 ;
+}
+h1,h3 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  color: #0388A6;
+}
+h1 {
+    color: #4E443C;
+    font-size: 36px;
+    font-weight: italic;
+}
+ol, ul {
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color:rgb(255,100,100);
+    padding:10px 0;
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    display:inline-block;
+    position:relative;
+}
+nav li ul {    
+   
+    position:absolute;
+    left:0;
+    top:40px; /* make this equal to the line-height of the links (specified below) */
+    width:200px;
+    z-index: 999;
+}
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px; /* make this equal to the width of the sub nav above */
+    margin:0;
+    z-index: 999;
+    
+}
+nav a {
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+nav a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+.sub-menu{
+     background-color: #E14B4B;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color:rgb(50,50,50);
+}
+nav li li a {
+    border-bottom:solid 1px rgb(200,50,50);
+    margin:0 10px;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+ul.sub-menu {
+    display:none;
+}
+
+ul.js-sub-menu {
+    display:none;
+}
+nav li.dropdown > a {
+    background-image:url('image/arrow-down.png');
+    background-position:right 20px;
+    background-repeat:no-repeat;
+}
+
+nav li.js-dropdown > a {
+    background-image:url('image/arrow-down.png');
+    background-position:right 20px;
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('image/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}
+nav li li.js-dropdown > a {
+    background-image:url('image/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}
+
+/*---------------------------------------------------*/
 .logo{
     margin:20px auto;
     text-align:center;

@@ -1,4 +1,6 @@
-
+form{
+	height: 150px;
+}
 
 .sbHolder{
 	margin:50px 0 0 10px;
@@ -109,4 +111,12 @@
 }
 .sbOptions .sbSub{
 	padding-left: 17px;
+}
+.jquery-checkbox{
+	float:left;
+	margin: 35px 0 0 250px;
+}
+.css-checkbox{
+	margin: 42px 0 0 680px;
+
 }
