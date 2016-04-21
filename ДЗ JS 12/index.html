@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson 11-12</title>
+	<meta name="description" content="Урок HTML разметки"/>
+	<meta name="keywords" content="html,Lesson"/>
+    <link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jsmicrotmpl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+    <script src="js/mysliderPlugin.js"></script>
+    <script src="js/script.js"></script>
+   
+     
+</head>
+<body>
+
+  <h1>Карусель по туториалу</h1>
+    
+    <div class="wrap">
+        <div class="carousel-arrow-left"><span>Влево</span></div>
+        <div class="carousel-hider">
+            <ul class="carousel-list">
+                <li class="carousel-element"><img src="image/1.jpg"><p>Pic 1</p></li>
+                <li class="carousel-element"><img src="image/2.jpg"><p>Pic 2</p></li>
+                <li class="carousel-element"><img src="image/3.jpg"><p>Pic 3</p></li>
+                <li class="carousel-element"><img src="image/4.jpg"><p>Pic 4</p></li>
+                <li class="carousel-element"><img src="image/5.jpg"><p>Pic 5</p></li>
+                <li class="carousel-element"><img src="image/6.jpg"><p>Pic 6</p></li> 
+                <li class="carousel-element"><img src="image/7.jpg"><p>Pic 7</p></li> 
+                
+            </ul>
+        </div>
+        <div class="carousel-arrow-right"><span>Вправо</span></div>
+    </div>
+    
+    <div class="clear"> </div>
+
+<hr>
+<!-- ............... Lesson 1.................. -->
+ <script type="text/template"   id="my_tmpl">
+    <h1>John Resig's script.</h1>
+        <div id='wrapper'>
+            <div class='header'>
+                <h2><#= name #></h2>
+                <p><img src="<#= photo #>" alt="Фото студента"></p>
+                <p><#= course #></p>
+            </div>
+                    
+                <div class="content">
+                    <p>Хочу учить фронтенд, потому что:</p>
+                        <ul>
+                            <li><#= reason1 #></li>
+                            <li><#= reason2 #></li>
+                            <li><#= reason3 #></li>
+                        </ul>
+                </div>
+                <div class="contacts">
+                    <div class="tel">
+                        <p>Мой контактный телефон:</p>
+                        <p><#= mobile #></p>
+                    </div>
+                    <div>
+                        <p>Мой профиль в соцсети:</p>
+                        <p><a href="<#= sn_reference #>"><#= sn_reference #></a></p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>Мой фидбек:</p>
+                    <p><#= feedback #></p>
+                </div>
+        </div>
+        
+    </script>
+
+   <script type="text/template" id="list-template">
+         <h1>Шаблонизатор LoDash</h1>
+         <div id='wrapper'>
+            <div class='header'>
+                <h2><%= name %></h2>
+                <p><img src="<%= photo %>" alt="Фото студента"></p>
+                <p><%= course %></p>
+            </div>
+                    
+                <div class="content">
+                    <p>Хочу учить фронтенд, потому что:</p>
+                        <ul>
+                            <li><%= reason1 %></li>
+                            <li><%= reason2 %></li>
+                            <li><%= reason3 %></li>
+                        </ul>
+                </div>
+                <div class="contacts">
+                    <div class="tel">
+                        <p>Мой контактный телефон:</p>
+                        <p><%= mobile %></p>
+                    </div>
+                    <div>
+                        <p>Мой профиль в соцсети:</p>
+                        <p><a href="<%= sn_reference %>"><%= sn_reference %></a></p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>Мой фидбек:</p>
+                    <p><%= feedback %></p>
+                </div>
+        </div>
+        
+    </script>
+
+
+</body>
+</html>

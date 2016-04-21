@@ -1,0 +1,138 @@
+
+body {
+    width: 100%;
+    background-color: #F0F0F1;  
+ }
+h1{
+    text-align: center;
+ }
+.wrap{
+    width:767px;
+    height: 200px;
+    margin:20px auto;
+}
+.carousel-hider {
+    width: 575px;
+    border: 1px solid grey;
+    overflow: hidden;
+    float: left;
+    background: #fff;  
+}
+ 
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+}
+ 
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+ .carousel-element p{
+ 	text-align:center;
+ }
+.carousel-element img {
+    max-width: 125px;
+}
+ 
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 50px;
+}
+ 
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+ 
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+ 
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+
+/*------------------------------------*/
+
+#wrapper{
+    color:#000000;
+    width: 412px;
+    height: 751px;
+    padding: 0 50px;
+    margin: 50px auto 46px auto;
+    font: 17px  serif;
+    line-height: 1.4;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(190, 190, 190, 1);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(190, 190, 190, 1);
+    box-shadow:         0px 0px 5px 0px rgba(190, 190, 190, 1);
+}
+
+.header{
+    height:212px;
+    border-bottom:1px solid #797979;
+    padding: 45px 0 16px 0;
+}
+
+.header h2, h2+p{
+    text-align: center;
+
+}
+
+.header p img{
+    margin-top: 17px;
+    margin-bottom: 4px;
+    height: 126px;
+}
+
+ #wrapper p{
+    margin: 0 12px;
+} 
+
+.content li{
+    margin: 0 21px;
+} 
+
+
+.content ul li{
+    list-style-position: inside;
+    line-height: 26px;
+}
+
+.content{
+    height: 123px;
+    border-bottom: 1px solid #797979;
+    padding: 25px 0 20px 0;
+}
+
+.content p+ul{
+    margin-top: 28px;
+}
+
+.contacts{
+    height: 122px;
+    border-bottom: 1px solid #797979;
+    padding: 25px 0 20px 0;
+    line-height: 25px;
+}
+
+.tel{
+    margin-bottom: 27px;
+}
+
+.footer{
+    padding: 25px 0 20px 0;
+    line-height: 25px;
+}
+
+.clear {
+    clear:both;
+}
