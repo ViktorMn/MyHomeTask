@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+
+.google_logo{
+    margin: 50px auto 0px;
+    width: 300px;
+    height: 180px;
+    background-image: url(image/google.png);
+}
+
+.wrapper{
+    width: 608px;
+    margin: 0 auto;
+}
+div .btn{
+    text-align: center;
+}
+ #search {
+    width: 600px;
+    height: 20px;
+    border: 1px solid#CCC4D3;
+    padding: 5px 10px;
+    margin: 20px auto 0;
+}
+ #search:hover{
+    border: 1px solid grey;
+}
+ #search:focus{
+    border: 1px solid blue;
+}
+#btn-search{
+    margin: 0 auto;
+    height: 40px;
+    line-height: 25px;
+    -webkit-user-select: none;
+    background-color: #FFFF99;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 55px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.content-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content-item {
+    margin-top: 20px;
+}
+a.url-title {
+    cursor: pointer;
+    color: #1a0dab; 
+}
+a.url-title:visited {
+    color: #609;
+}
+h3.title  {
+    font: 18px Arial, Helvetica, sans-serif;
+}
+
+p.url {
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #006621;
+}
+
+p.content {
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #3A3A3A;
+}
+
+
